@@ -9,3 +9,4 @@ jobs:
       - name: Say Hello
         run: echo "Hello, Yalla Reddy 🚀"
              touch hello.txt
+             ls -la
