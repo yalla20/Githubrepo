@@ -56,4 +56,8 @@ jobs:
 
       # Docker Push
       - name: Push Docker Image
-        run: docker push yallareddyg/app:v1
+        run: |
+          docker push yallareddyg/app:v1
+          echo "Docker image pushed successfully!"
+        
+
